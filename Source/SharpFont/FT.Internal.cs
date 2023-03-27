@@ -108,7 +108,7 @@ namespace SharpFont
 		#endregion
 
 		#region Base Interface
-		
+
 		[DllImport(FreetypeDll, CallingConvention = CallConvention)]
 		internal static extern Error FT_Init_FreeType(out IntPtr alibrary);
 
